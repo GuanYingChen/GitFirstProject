@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
+# author: Amber
 
-from __future__ import print_function
+from __future__ import print_function, division
 import socket
 import ConfigParser
 import click
@@ -35,3 +36,4 @@ def register(client_ip, project_home, service_name, run_cmd, api_host, api_port,
 
 if __name__ == '__main__':
     register()
+    print "TRY!"
