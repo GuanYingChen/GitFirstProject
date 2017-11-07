@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# author: Amber
+# Author: Amber Chen
 
 from __future__ import print_function, division
 import socket
