@@ -11,8 +11,8 @@ from controller.register_cmd import RegisterCommand
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
 
-default_api_host = common_util.get_conf('HippoManagerAPI', 'host')
 default_api_port = common_util.get_conf('HippoManagerAPI', 'port')
+default_api_host = common_util.get_conf('HippoManagerAPI', 'host')
 
 
 @click.command(context_settings=CONTEXT_SETTINGS)
